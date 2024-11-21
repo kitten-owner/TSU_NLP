@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "labs"
+version = "0.1.0"
+description = ""
+authors = ["ZVS <zaunulin@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+nltk = "^3.9.1"
+pymorphy3 = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
