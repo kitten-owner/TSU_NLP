@@ -18,7 +18,9 @@ for sentence in sentences:
         if (
             (
             (current_word.tag.POS == "NOUN" and next_word.tag.POS == "ADJF") or
-            (current_word.tag.POS == "ADJF" and next_word.tag.POS == "NOUN")
+            (current_word.tag.POS == "ADJF" and next_word.tag.POS == "NOUN") or
+            (current_word.tag.POS == "NOUN" and next_word.tag.POS == "NOUN") or
+            (current_word.tag.POS == "ADJF" and next_word.tag.POS == "ADJF")
             ) and
             (current_word.tag.gender == next_word.tag.gender) and
             (current_word.tag.number == next_word.tag.number) and
