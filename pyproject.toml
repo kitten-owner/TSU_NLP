@@ -4,12 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["ZVS <zaunulin@mail.ru>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
 nltk = "^3.9.1"
 pymorphy3 = "^2.0.2"
 gensim = "^4.3.3"
+torch = "^2.5.1"
+transformers = "^4.47.0"
 
 
 [build-system]
